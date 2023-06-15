@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobileNoAddActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/MobileNo1EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile_1"
+                android:maxLength="10"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/aclonica"
+                android:inputType="number"/>
+
+            <EditText
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/MobileNo2EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/mobile_2"
+                android:fontFamily="@font/aclonica"
+                android:maxLength="10"
+                android:inputType="number"/>
+
+            <EditText
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/MobileNo3EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/mobile_3"
+                android:fontFamily="@font/aclonica"
+                android:maxLength="10"
+                android:inputType="number"/>
+
+            <EditText
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/MobileNo4EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/mobile_4"
+                android:fontFamily="@font/aclonica"
+                android:maxLength="10"
+                android:inputType="number"/>
+
+            <EditText
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/MobileNo5EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Fifth Mobile No"
+                android:fontFamily="@font/aclonica"
+                android:maxLength="10"
+                android:inputType="number"/>
+
+            <Button
+                android:textColor="@color/white"
+                android:id="@+id/Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/submit"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
